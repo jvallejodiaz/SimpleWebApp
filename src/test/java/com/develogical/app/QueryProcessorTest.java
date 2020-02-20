@@ -28,4 +28,8 @@ public class QueryProcessorTest {
     public void isPong() throws Exception {
         assertThat(queryProcessor.process("ping"), containsString("pong"));
     }
+    @Test
+    public void isheroku() throws Exception {
+        assertThat(queryProcessor.process("heroku"), containsString("works"));
+    }
 }

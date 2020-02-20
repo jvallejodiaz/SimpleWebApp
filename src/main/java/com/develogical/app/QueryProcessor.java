@@ -10,7 +10,11 @@ public class QueryProcessor {
             //this is a dummy change 0
             return "pong";
 
-        }
+        }else if(query.toLowerCase().contains("heroku")){
+        //this is a dummy change 0
+        return "works";
+
+    }
         return "";
     }
 }
