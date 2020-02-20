@@ -22,6 +22,7 @@ public class QueryProcessor {
             //this is a dummy change 0
             return "Maistake";
 
+
         }
 
         return "";
