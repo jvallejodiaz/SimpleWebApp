@@ -32,4 +32,8 @@ public class QueryProcessorTest {
     public void isheroku() throws Exception {
         assertThat(queryProcessor.process("heroku"), containsString("works"));
     }
+    @Test
+    public void isAlex() throws Exception {
+        assertThat(queryProcessor.process("Alex"), containsString("Hi Alex"));
+    }
 }

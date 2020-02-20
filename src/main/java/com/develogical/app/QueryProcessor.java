@@ -14,7 +14,11 @@ public class QueryProcessor {
         //this is a dummy change 0
         return "works";
 
-    }
+    }else if(query.toLowerCase().contains("alex")){
+            //this is a dummy change 0
+            return "Hi Alex";
+
+        }
         return "";
     }
 }
