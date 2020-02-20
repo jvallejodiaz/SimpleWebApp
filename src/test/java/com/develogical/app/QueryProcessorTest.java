@@ -36,4 +36,9 @@ public class QueryProcessorTest {
     public void isAlex() throws Exception {
         assertThat(queryProcessor.process("Alex"), containsString("Hi Alex"));
     }
+    @Test
+    public void testToMakeAMistake() throws Exception {
+        assertThat(queryProcessor.process("mistake"), containsString("mistake"));
+
+    }
 }
